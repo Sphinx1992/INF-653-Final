@@ -1,0 +1,7 @@
+05-06-2024 	 10:51:42 	 300b9e2e-1836-4a7e-89cb-a82d9b0fb3af 	 GET	undefined	/ 
+05-06-2024 	 10:52:43 	 937ac065-cd5a-42fa-9ee7-c6480e830ace 	 GET	undefined	/states/ 
+05-06-2024 	 10:52:48 	 3fa23a30-e1a0-4ca6-8fcd-eee2d6497386 	 GET	undefined	/states 
+05-06-2024 	 11:04:58 	 b999398f-628a-4df4-89c6-2865169e02e4 	 GET	undefined	/ 
+05-06-2024 	 11:06:24 	 3732f29b-879b-4bf7-a100-968515f14c10 	 GET	undefined	/:state/ 
+05-06-2024 	 11:06:32 	 a9430e9b-a893-41cc-83ce-1118fb350e6a 	 GET	undefined	/:state/funfact 
+05-06-2024 	 11:09:43 	 c4576792-6703-4a4f-b715-f38f769cabed 	 GET	undefined	/ 
