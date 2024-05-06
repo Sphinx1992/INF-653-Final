@@ -1,4 +1,4 @@
-const states = require('../data/states.json').map(state => state.abbreviation);
+const states = require('../data/states').map(state => state.abbreviation);
 
 
 function verifyStateParameter(req, res, next) {

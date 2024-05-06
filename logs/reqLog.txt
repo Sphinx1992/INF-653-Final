@@ -1,7 +1,9 @@
-05-06-2024 	 10:51:42 	 300b9e2e-1836-4a7e-89cb-a82d9b0fb3af 	 GET	undefined	/ 
-05-06-2024 	 10:52:43 	 937ac065-cd5a-42fa-9ee7-c6480e830ace 	 GET	undefined	/states/ 
-05-06-2024 	 10:52:48 	 3fa23a30-e1a0-4ca6-8fcd-eee2d6497386 	 GET	undefined	/states 
-05-06-2024 	 11:04:58 	 b999398f-628a-4df4-89c6-2865169e02e4 	 GET	undefined	/ 
-05-06-2024 	 11:06:24 	 3732f29b-879b-4bf7-a100-968515f14c10 	 GET	undefined	/:state/ 
-05-06-2024 	 11:06:32 	 a9430e9b-a893-41cc-83ce-1118fb350e6a 	 GET	undefined	/:state/funfact 
-05-06-2024 	 11:09:43 	 c4576792-6703-4a4f-b715-f38f769cabed 	 GET	undefined	/ 
+05-06-2024 	 01:28:48 	 b94a3b91-1978-487b-bc0a-c9f47a924576 	 GET	undefined	/states/?contig=true 
+05-06-2024 	 01:28:48 	 bcd21528-bb6f-4453-850c-80c9a50e3b8b 	 GET	undefined	/favicon.ico 
+05-06-2024 	 01:29:03 	 0a362056-7f0b-4add-9aa8-165db1668036 	 GET	undefined	/states/ 
+05-06-2024 	 01:29:03 	 c43a0eea-3e0a-414a-af2f-48dcabcf4789 	 GET	undefined	/favicon.ico 
+05-06-2024 	 01:29:39 	 e03ff82f-e9c1-46aa-bfd1-a9e10ef6622e 	 GET	undefined	/state/ 
+05-06-2024 	 01:31:18 	 8efb6a7d-a855-4d8f-a010-09a27d0c6ab4 	 GET	undefined	/states/ 
+05-06-2024 	 01:31:18 	 012f1d43-0708-43fb-8d2d-4cb8762abef6 	 GET	undefined	/favicon.ico 
+05-06-2024 	 01:31:27 	 de225102-2043-4b50-abe7-9d4d7ff8caea 	 GET	undefined	/ 
+05-06-2024 	 01:31:27 	 32286872-1745-4ca8-943c-1488edb16773 	 GET	undefined	/favicon.ico 
