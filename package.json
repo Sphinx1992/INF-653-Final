@@ -25,7 +25,5 @@
     "devDependencies": {
         "@types/date-fns": "^2.6.0"
     }
-    "engines": {
-  "node": "14.x"
- }
+   
 }
