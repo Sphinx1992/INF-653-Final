@@ -42,16 +42,16 @@ app.use(express.urlencoded({extended: false}));
 app.use(cors({origin: '*'}));
 app.use(morgan('dev'));
 
-app.use(verifyStateParameter);
 
-// To handel static files in public
+
+
 
 
 
 
 
 // API router
-app.use("/states", require("./routes/api/StateRoutes"));
+app.use("/StateRoutes", require("./routes/api/StateRoutes"));
 
 // 404 route for un-defined
 app.all("*", (req, res) => {

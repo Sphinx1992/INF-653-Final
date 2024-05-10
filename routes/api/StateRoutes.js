@@ -3,10 +3,9 @@
 const express = require("express");
 const router = express.Router();
 const stateController = require("../../controller/stateController");
-const {verifyStateParameter} = require("../../middleware/verifyStateParameter");
 
-// Middleware to verify state code is correct
-router.use("/:state", verifyStateParameter);
+
+
 
 
 //Route to get all states

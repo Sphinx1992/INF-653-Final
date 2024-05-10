@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const stateSchema = new mongoose.Schema({
-  stateCode: {
+  code: {
     type: String,
     required: true,
     unique: true
@@ -17,6 +17,6 @@ const stateSchema = new mongoose.Schema({
   }
 });
 
-const State = mongoose.model('State', stateSchema);
+const State = mongoose.model('States', stateSchema);
 
 module.exports = State;

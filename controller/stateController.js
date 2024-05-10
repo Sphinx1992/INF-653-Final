@@ -1,7 +1,7 @@
 
 // Import the State model
 
-const State = require('../data/states');
+const State = require('../model/State');
 
 // Create an empty object to hold controller functions
 
@@ -17,7 +17,7 @@ const { contig } = req.query;
 
 // Load the states from the JSON file
 
-let states = require('../data/states');
+let states = require('../data/states.json');
 
 // Filter the states based on the value of the "contig" query parameter
 
@@ -59,7 +59,7 @@ const getState = async (req, res) => {
 
 // Find the state object in the JSON file based on the given state code
 
-const state = require('../data/states').find((s) => s.code === req.params.state);
+const state = require('../data/states.json').find((s) => s.code === req.params.state);
 
 // If the state does not exist, send a 404 error response
 
@@ -123,7 +123,7 @@ const getCapital = (req, res) => {
 
 // Find the state in the "states.json" file using its code
 
-const state = require('../data/states').find((s) => s.code === req.params.state);
+const state = require('../data/states.json').find((s) => s.code === req.params.state);
 
 // If the state is not found, send a 404 error response and return
 
@@ -145,13 +145,15 @@ res.json(capitalObject);
 
 };
 
+
+
 // Define a function to handle GET requests for the nickname of a specific state
 
 const getNickname = (req, res) => {
 
 // Load the states data and find the state matching the given state code in the request parameters
 
-const state = require('../data/states').find((s) => s.code === req.params.state);
+const state = require('../data/states.json').find((s) => s.code === req.params.state);
 
 // If the state cannot be found, return a 404 response with an error message
 
@@ -173,7 +175,7 @@ const getPopulation = (req, res) => {
 
 // Load the state data from the states.json file
 
-const state = require('../data/states').find((s) => s.code === req.params.state);
+const state = require('../data/states.json').find((s) => s.code === req.params.state);
 
 // If the state is not found, return a 404 error with a message
 
@@ -197,7 +199,7 @@ const getAdmission = (req, res) => {
 
 // Find the state in the states.json file using the provided state code
 
-const state = require('../data/states').find((s) => s.code === req.params.state);
+const state = require('../data/states.json').find((s) => s.code === req.params.state);
 
 // If the state is not found, return a 404 error response with an error message
 
